@@ -1,0 +1,24 @@
+.form {
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    padding: 13px;
+    margin: 40px auto;
+}
+input {
+    width: 15%;
+    text-indent: 10px;
+    outline: none;
+    border: none;
+}
+input,
+::placeholder {
+    width: 90%;
+    color: #000;
+    font-size: 15px;
+}
+@media (max-width: 768px) {
+    .form {
+        width: 65%;
+    }
+}

@@ -1,0 +1,167 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+   /* margin-top: 35px;*/
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.item {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+
+}
+.cardRecipe {
+    position: relative;
+    background: white;
+    max-width: 350px;
+    margin: 40px auto;
+    height: 480px;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    border-radius: 10px;
+}
+h2 {
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.cardImg {
+    max-width: 350px;
+    background-size: cover;
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
+.viewRecipe {
+    display: block;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    margin: 0% 25%;
+    transition: transform 250ms ease;
+    box-shadow: 450ms ease;
+}
+.viewRecipe:hover {
+    transform: translateY(-5px);
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-right: 25px;
+    font-weight: 400;
+
+}
+.meal {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 25px;
+}
+li {
+    display: flex;
+    align-items: center;
+}
+.loadMore {
+    position: fixed;
+    right: 60px;
+    bottom: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: #a8f070;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.type {
+    margin-right:  40px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #a8f070;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.textInfo {
+    background-color: #a8f070;
+    border-radius: 30px;
+    margin: 20px 20px;
+}
+.getMoreInfo {
+    margin:  40px auto;
+    display: block;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center;
+    width: 40%;
+}
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+h5 {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
+    padding-top: 50px;
+    margin: 0 40px;
+    line-height: 28px;
+}
+@media (max-width: 768px) {
+    .textInfo {
+        height: fit-content;
+        border-radius: 10px;
+        margin: 50px auto;
+
+
+        max-width: 300px;
+    }
+    h5 {
+        line-height: 30px;
+        font-weight: normal;
+        font-size: 16px;
+    }
+    h2 {
+        text-align: center;
+    }
+    .loadMore {
+        right: 30px;
+        bottom: 10px;
+    }
+    .cardRecipe {
+        max-width: 280px;
+        height: 430px;
+    }
+    .cardImg {
+        max-width: 280px;
+    }
+    .viewRecipe {
+        letter-spacing: 3px;
+        padding: 8px;
+    }
+    .info {
+        margin-right: 35px;
+    }
+}

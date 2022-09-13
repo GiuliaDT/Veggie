@@ -1,0 +1,57 @@
+.veganRecipe {
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, 0%);
+    color: #0000;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: color .3s ease-in-out, .4s ease-in-out;
+}
+.veganRecipe:hover {
+    box-shadow: inset 250px 0 0 0 #a8f070;
+    color: black;
+}
+.cardImg {
+    max-width: 400px;
+    background-size: cover;
+    border-radius: 16px;
+}
+.wrapper {
+    background-color: #fff;
+}
+
+
+
+@media (max-width: 768px) {
+    .cardImg {
+        max-width: 280px;
+    }
+    .veganRecipe {
+        background-color: #a8f070;
+        color: #000;
+        opacity: .8;
+        border: 2px solid #fff;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .veganRecipe {
+        background-color: #a8f070;
+        color: #000;
+        opacity: .8;
+        border: 2px solid #fff;
+        font-size: 12px;
+        font-weight: 500;
+}
+.cardImg {
+    max-width: 320px;
+}
+}
