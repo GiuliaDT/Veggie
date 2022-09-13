@@ -25,5 +25,5 @@ This project was built with React, React Router, Splide, CSS Modules, Webpack, A
 
 ## Deployment
 
-Project was deployed on Netlify. Click [here] to try it. (https://veggie-app.netlify.app/)
+Project was deployed on Netlify. Click [here](https://veggie-app.netlify.app/) to try it.
 
