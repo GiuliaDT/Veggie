@@ -19,11 +19,11 @@ Single-page application fetching vegetarian recipes.
 
 ## Build with
 
-This project was built with React, React Router, Splide, CSS Modules, Webpack and Spooncacular API.
+This project was built with React, React Router, Splide, CSS Modules, Webpack, Axios and Spooncacular API.
 
 
 
 ## Deployment
 
-Project was deployed on Netlify. Click here to try it.
+Project was deployed on Netlify. Click here to try it.https://veggie-app.netlify.app/
 
