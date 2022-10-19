@@ -17,7 +17,7 @@ Single-page application fetching vegetarian recipes.
 
 🥑 Mobile friendly
 
-## Build with
+## Built with
 
 This project was built with React, React Router, Splide, CSS Modules, Webpack, Axios and Spooncacular API.
 
